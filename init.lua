@@ -1,12 +1,13 @@
 ----------------------------------------
--- Plugins Settings
+-- Plugins
 ----------------------------------------
 require('plugins')
-require('evil_lualine')
+require('ui')
 require('keymaps')
+require('syntax')
 
 ----------------------------------------
--- Editor Settings
+-- Editor
 ----------------------------------------
 vim.cmd('syntax on')
 

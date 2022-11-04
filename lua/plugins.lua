@@ -5,6 +5,10 @@ return require('packer').startup(function(use)
 
 	use 'ms-jpq/coq_nvim'
 
+	-- color schemes
+	use "cpea2506/one_monokai.nvim"
+	use 'navarasu/onedark.nvim'
+
 	use {
 		'nvim-lualine/lualine.nvim',
 		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
